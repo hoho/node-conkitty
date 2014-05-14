@@ -1,0 +1,35 @@
+{
+    "name": "node-conkitty",
+    "version": "0.0.1",
+    "description": "Apply Conkitty Templates in Node.JS",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/hoho/node-conkitty.git"
+    },
+    "keywords": [
+        "conkitty",
+        "templates",
+        "apply"
+    ],
+    "author": "Marat Abdullin <dakota@brokenpipe.ru>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hoho/node-conkitty/issues"
+    },
+    "dependencies": {
+        "concat.js": "~0.9.5",
+        "jsdom": "~0.10.5",
+        "conkitty": "~0.5.10"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    }
+}

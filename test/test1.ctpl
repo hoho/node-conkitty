@@ -1,0 +1,16 @@
+template1 $arg1 $arg2
+    div#greeting
+        "Hello "
+        span
+            ($arg1 + $arg2)
+        " world"
+
+
+template2
+    ul
+        EACH $item ([11, 22, 33])
+            li
+                ololo::piupiu
+                $item
+    strong
+        "!"
