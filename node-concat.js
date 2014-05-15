@@ -5,7 +5,13 @@ var hasWindow = 'window' in global,
 
 var jsdom = require('jsdom');
 
-global.window = jsdom.jsdom({html: '<!doctype html>'}).parentWindow;
+global.window = jsdom.jsdom({
+    html: '<!doctype html>',
+    features: {
+        FetchExternalResources: false,
+        ProcessExternalResources: false
+    }
+}).parentWindow;
 
 require(require.resolve('concat.js'));
 

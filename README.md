@@ -1,6 +1,6 @@
 # node-conkitty [![Build Status](https://travis-ci.org/hoho/node-conkitty.svg?branch=master)](https://travis-ci.org/hoho/node-conkitty)
 
-Apply Conkitty templates in Node.JS
+Apply Conkitty templates in Node.JS.
 
 [Conkitty](https://github.com/hoho/conkitty) is a DOM builder and supposed to
 work in browsers. Sometimes it is nice to be able to apply the same templates
