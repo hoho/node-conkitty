@@ -74,6 +74,8 @@ module.exports = {
         if (code) {
             loadJSForConcatJS(undefined, code);
         }
+
+        return conkitty.getIncludes();
     },
 
     loadCompiled: function(filename) {

@@ -1,4 +1,5 @@
 template1 $arg1 $arg2
+    &"test1.css"
     div#greeting
         "Hello "
         span

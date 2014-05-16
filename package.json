@@ -1,6 +1,6 @@
 {
     "name": "node-conkitty",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Apply Conkitty Templates in Node.JS",
     "main": "index.js",
     "directories": {

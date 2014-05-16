@@ -8,10 +8,12 @@ describe('node-conkitty:', function() {
         should.not.exist(nodeConkitty.$C.tpl.template1);
         should.not.exist(nodeConkitty.$C.tpl.template2);
         should.not.exist(nodeConkitty.$C._tpl['ololo::piupiu']);
-        nodeConkitty.compile(['./test/test1.ctpl', './test/test2.ctpl']);
+        var includes = nodeConkitty.compile(['./test/test1.ctpl', './test/test2.ctpl']);
         should.exist(nodeConkitty.$C.tpl.template1);
         should.exist(nodeConkitty.$C.tpl.template2);
         should.exist(nodeConkitty.$C._tpl['ololo::piupiu']);
+        should.exist(includes);
+        includes.should.eql(['test/test1.css', 'test/test2.css']);
         done();
     });
 
