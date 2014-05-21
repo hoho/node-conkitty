@@ -1,6 +1,6 @@
 {
     "name": "node-conkitty",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Apply Conkitty Templates in Node.JS",
     "main": "index.js",
     "directories": {
@@ -26,7 +26,7 @@
     "dependencies": {
         "concat.js": "~0.9.5",
         "jsdom": "~0.10.5",
-        "conkitty": "~0.5.10"
+        "conkitty": "~0.5.11"
     },
     "devDependencies": {
         "mocha": "*",
